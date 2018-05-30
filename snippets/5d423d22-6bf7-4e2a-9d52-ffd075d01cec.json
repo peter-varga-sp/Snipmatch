@@ -1,0 +1,17 @@
+{
+  "uuid": "5d423d22-6bf7-4e2a-9d52-ffd075d01cec",
+  "name": "RestServiceAnnotations",
+  "description": "RestServiceAnnotations",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "@Api\r\n@RestController(\"legalConditionsRestService\")\r\n@AopLoggableService\r\n${:import(com.drei.smarthome.backend.aop.AopLoggableService, io.swagger.annotations.Api, org.springframework.web.bind.annotation.RestController)}${cursor}\r\n",
+  "location": "FILE",
+  "filenameRestrictions": [],
+  "dependencies": [
+    {
+      "groupId": "io.swagger",
+      "artifactId": "swagger-annotations",
+      "version": "0.0.0"
+    }
+  ]
+}
