@@ -1,0 +1,17 @@
+{
+  "uuid": "ac52230e-3267-4aa1-b60f-cb2ce160ebb3",
+  "name": "assertThatListSize",
+  "description": "Hamcrest assert that list size equals to",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "assertThat(${result:var(java.util.List)}.size(), equalTo(${cursor}));\r\n${:importStatic(org.hamcrest.Matchers.equalTo, org.junit.Assert.assertThat)}\r\n",
+  "location": "JAVA",
+  "filenameRestrictions": [],
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "uuid": "9984f616-8f7f-4b91-b9ce-4eb5289b6a69",
+  "name": "assertThatListIsEmpty",
+  "description": "Hamcrest assert that list is empty",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "${imp:import(org.hamcrest.collection.IsEmptyCollection)}\r\n${impst:importStatic(org.hamcrest.Matchers.equalTo, org.junit.Assert.assertThat)}\r\nassertThat(${result:var(java.util.List)}${cursor}, IsEmptyCollection.empty());\r\n\r\n",
+  "location": "JAVA",
+  "filenameRestrictions": [],
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
+}
