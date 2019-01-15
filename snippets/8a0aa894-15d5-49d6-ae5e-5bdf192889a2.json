@@ -1,0 +1,11 @@
+{
+  "uuid": "8a0aa894-15d5-49d6-ae5e-5bdf192889a2",
+  "name": "assertThatOptionalNotPresent",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "${impst:importStatic(org.junit.Assert.assertFalse)}\r\nassertFalse(${result:var(java.util.Optional)}${cursor}.isPresent());",
+  "location": "JAVA",
+  "filenameRestrictions": [],
+  "dependencies": []
+}

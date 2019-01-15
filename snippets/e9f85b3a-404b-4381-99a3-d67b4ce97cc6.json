@@ -1,0 +1,11 @@
+{
+  "uuid": "e9f85b3a-404b-4381-99a3-d67b4ce97cc6",
+  "name": "assertThatOptionalPresent",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "${impst:importStatic(org.junit.Assert.assertTrue)}\r\nassertTrue(${result:var(java.util.Optional)}${cursor}.isPresent());",
+  "location": "JAVA",
+  "filenameRestrictions": [],
+  "dependencies": []
+}
