@@ -4,7 +4,7 @@
   "description": "",
   "extraSearchTerms": [],
   "tags": [],
-  "code": "${impst:importStatic(org.junit.Assert.assertFalse)}\r\nassertFalse(${result:var(java.util.Optional)}${cursor}.isPresent());",
+  "code": "assertFalse(${result:var(java.util.Optional)}${cursor}.isPresent());\r\n\r\n${impst:importStatic(org.junit.Assert.assertFalse)}",
   "location": "JAVA",
   "filenameRestrictions": [],
   "dependencies": []
