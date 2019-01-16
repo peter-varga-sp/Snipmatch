@@ -1,0 +1,11 @@
+{
+  "uuid": "3a928e14-d37c-413e-bbdf-0feab837f7ff",
+  "name": "logCreateLogger",
+  "description": "Create logger",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "private static final Logger logger \u003d LoggerFactory.getLogger(${enclosing_type}.class);\r\n${:import(org.slf4j.Logger,org.slf4j.LoggerFactory)}\r\n\r\n\r\n",
+  "location": "FILE",
+  "filenameRestrictions": [],
+  "dependencies": []
+}

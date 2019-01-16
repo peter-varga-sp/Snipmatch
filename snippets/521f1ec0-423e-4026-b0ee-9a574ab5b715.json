@@ -1,0 +1,11 @@
+{
+  "uuid": "521f1ec0-423e-4026-b0ee-9a574ab5b715",
+  "name": "assertThatEqualTo",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "assertThat(${result:var}, equalTo(${cursor}));\r\n\r\n${impst:importStatic(org.junit.Assert.assertThat,org.hamcrest.Matchers.equalTo)}",
+  "location": "JAVA",
+  "filenameRestrictions": [],
+  "dependencies": []
+}

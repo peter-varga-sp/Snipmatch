@@ -1,7 +1,7 @@
 {
   "uuid": "1d30971b-ca20-4293-81db-e5c2c6cff321",
   "name": "assertThatContainsString",
-  "description": "",
+  "description": "Assert that contains String",
   "extraSearchTerms": [],
   "tags": [],
   "code": "${impst:importStatic(org.hamcrest.Matchers.containsString, org.junit.Assert.assertThat)}\r\n\r\nassertThat(result, containsString(\"${cursor}\"));",

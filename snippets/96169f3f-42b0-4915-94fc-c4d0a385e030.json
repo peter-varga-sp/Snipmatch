@@ -1,0 +1,11 @@
+{
+  "uuid": "96169f3f-42b0-4915-94fc-c4d0a385e030",
+  "name": "FIXME_createUnitTest",
+  "description": "FIXME for creating unit test",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "//FIXME PV ${id:date(\u0027YYYY-MM-dd\u0027)} : Create unit test ${cursor} ",
+  "location": "JAVA",
+  "filenameRestrictions": [],
+  "dependencies": []
+}

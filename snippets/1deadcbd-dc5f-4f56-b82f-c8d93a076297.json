@@ -1,0 +1,11 @@
+{
+  "uuid": "1deadcbd-dc5f-4f56-b82f-c8d93a076297",
+  "name": "logInfo",
+  "description": "Log message with level INFO",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "logger.info(\"${cursor}\");",
+  "location": "JAVA",
+  "filenameRestrictions": [],
+  "dependencies": []
+}

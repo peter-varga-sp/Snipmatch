@@ -1,0 +1,11 @@
+{
+  "uuid": "c7c14c0d-b56e-49df-a826-099fecf2f6e8",
+  "name": "FIXME",
+  "description": "FIXME - Common FIXME tag",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "//FIXME PV ${id:date(\u0027YYYY-MM-dd\u0027)} : ${cursor}",
+  "location": "JAVA",
+  "filenameRestrictions": [],
+  "dependencies": []
+}

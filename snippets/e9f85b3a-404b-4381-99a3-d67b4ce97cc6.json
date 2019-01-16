@@ -1,7 +1,7 @@
 {
   "uuid": "e9f85b3a-404b-4381-99a3-d67b4ce97cc6",
   "name": "assertThatOptionalPresent",
-  "description": "",
+  "description": "Assert that optional is present",
   "extraSearchTerms": [],
   "tags": [],
   "code": "assertTrue(${result:var(java.util.Optional)}${cursor}.isPresent());\r\n\r\n${impst:importStatic(org.junit.Assert.assertTrue)}",

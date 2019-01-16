@@ -1,0 +1,11 @@
+{
+  "uuid": "8e3e7ddc-9af5-442c-bef8-4eb1b3703ed7",
+  "name": "TODO ",
+  "description": "Common TODO tag",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "//TODO PV ${id:date(\u0027YYYY-MM-dd\u0027)} : ${cursor}",
+  "location": "JAVA",
+  "filenameRestrictions": [],
+  "dependencies": []
+}
