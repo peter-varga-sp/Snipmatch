@@ -1,0 +1,11 @@
+{
+  "uuid": "640a7258-249f-44fd-8096-010086e044dd",
+  "name": "mockitoWhenThenReturn",
+  "description": "Mockito when - thenReturn",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "when(${cursor}(eq())).thenReturn();\r\n${impst:importStatic(org.mockito.Mockito.when,org.mockito.ArgumentMatchers.eq)}",
+  "location": "JAVA",
+  "filenameRestrictions": [],
+  "dependencies": []
+}
