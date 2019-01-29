@@ -1,0 +1,11 @@
+{
+  "uuid": "31c0486e-1099-4533-bc9b-09172c466024",
+  "name": "junitExpectedExceptionRule",
+  "description": "JUnit ExpectedException Rule",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "@Rule\r\npublic ExpectedException exception \u003d ExpectedException.none();\r\n${:import(org.junit.Rule,org.junit.rules.ExpectedException)}",
+  "location": "JAVA",
+  "filenameRestrictions": [],
+  "dependencies": []
+}

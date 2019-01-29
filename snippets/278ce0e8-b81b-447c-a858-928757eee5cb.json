@@ -1,0 +1,11 @@
+{
+  "uuid": "278ce0e8-b81b-447c-a858-928757eee5cb",
+  "name": "junitExpectedExceptionExpect",
+  "description": "JUnit ExpectedException Expect",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "exception.expect(${cursor}.class);\r\nexception.expect(hasProperty(\"\"));\r\nexception.expect(hasProperty(\"\", is(equalTo(\"\"))));\r\n${impst:importStatic(org.hamcrest.CoreMatchers.is,org.hamcrest.CoreMatchers.equalTo,org.hamcrest.Matchers.hasProperty)}",
+  "location": "JAVA",
+  "filenameRestrictions": [],
+  "dependencies": []
+}
