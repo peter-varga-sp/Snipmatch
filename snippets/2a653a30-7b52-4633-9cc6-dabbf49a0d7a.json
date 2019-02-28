@@ -1,0 +1,11 @@
+{
+  "uuid": "2a653a30-7b52-4633-9cc6-dabbf49a0d7a",
+  "name": "mockitoRunWith",
+  "description": "Runwith MockitoJUnitRunner",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "@RunWith(MockitoJUnitRunner.class)\r\n${:import(org.mockito.junit.MockitoJUnitRunner,org.junit.runner.RunWith)}",
+  "location": "FILE",
+  "filenameRestrictions": [],
+  "dependencies": []
+}

@@ -4,7 +4,7 @@
   "description": "Mockito verify times",
   "extraSearchTerms": [],
   "tags": [],
-  "code": "verify(${cursor}, times(1)).methodName(eq(\"\"));\r\n${impst:importStatic(org.mockito.Mockito.verify,org.mockito.Mockito.times,org.mockito.ArgumentMatchers.eq)}",
+  "code": "verify(beanName${cursor}, times(1)).methodName(eq(\"\"));\r\n${impst:importStatic(org.mockito.Mockito.eq,org.mockito.Mockito.verify,org.mockito.Mockito.times,org.mockito.ArgumentMatchers.eq)}",
   "location": "JAVA",
   "filenameRestrictions": [],
   "dependencies": []

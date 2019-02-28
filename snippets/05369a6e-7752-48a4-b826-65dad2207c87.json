@@ -1,0 +1,11 @@
+{
+  "uuid": "05369a6e-7752-48a4-b826-65dad2207c87",
+  "name": "springInjectedValue",
+  "description": "Spring injected field value",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "@Value(\"$${${cursor}}\")\r\nprivate String ${cursor};\r\n${:import(org.springframework.beans.factory.annotation.Value)}",
+  "location": "JAVA",
+  "filenameRestrictions": [],
+  "dependencies": []
+}

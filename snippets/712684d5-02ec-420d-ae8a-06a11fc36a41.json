@@ -1,0 +1,11 @@
+{
+  "uuid": "712684d5-02ec-420d-ae8a-06a11fc36a41",
+  "name": "assertJAssertThat",
+  "description": "AssertJ AssertThat",
+  "extraSearchTerms": [],
+  "tags": [],
+  "code": "assertThat(${cursor})\r\n${impst:importStatic(org.assertj.core.api.Assertions.assertThat)}",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [],
+  "dependencies": []
+}
