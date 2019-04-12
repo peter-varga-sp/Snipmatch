@@ -1,10 +1,10 @@
 {
-  "uuid": "1deadcbd-dc5f-4f56-b82f-c8d93a076297",
-  "name": "logWarning",
+  "uuid": "3fc932a5-1d0b-47a8-8690-58d9ca04d881",
+  "name": "logInfo",
   "description": "Log message with level WARN",
   "extraSearchTerms": [],
   "tags": [],
-  "code": "logger.warn(\"${cursor}\");",
+  "code": "logger.info(\"${cursor}\");",
   "location": "JAVA",
   "filenameRestrictions": [],
   "dependencies": []
