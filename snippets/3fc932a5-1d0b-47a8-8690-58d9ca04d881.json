@@ -1,7 +1,7 @@
 {
   "uuid": "3fc932a5-1d0b-47a8-8690-58d9ca04d881",
   "name": "logInfo",
-  "description": "Log message with level WARN",
+  "description": "Log message with level INFO",
   "extraSearchTerms": [],
   "tags": [],
   "code": "logger.info(\"${cursor}\");",
